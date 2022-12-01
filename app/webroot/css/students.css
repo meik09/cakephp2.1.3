@@ -1,0 +1,307 @@
+/* 在籍者管理メニューのCSS */
+/* 在籍者一覧 */
+label {
+	cursor: pointer;
+}
+
+.student_find_tbl1,
+.student_find_tbl2,
+.student_find_tbl3,
+.student_find_tbl4 {
+	width: 950px;
+}
+.student_find_tbl2,
+.student_find_tbl3,
+.student_find_tbl4 {
+	margin:8px 0px;
+}
+.student_find_th1,
+.student_find_th2,
+.student_find_th3,
+.student_find_th4,
+.student_find_th5,
+.student_find_th6,
+.student_find_th7,
+.student_find_th8,
+.student_find_th9,
+.student_find_th2_1,
+.student_find_th2_2,
+.student_find_th2_3,
+.student_find_th2_4,
+.student_find_th2_5,
+.student_find_th2_6,
+.student_find_th3_1,
+.student_find_th3_2,
+.student_find_th3_3,
+.student_find_th3_4,
+.student_find_th4_1,
+.student_find_th4_2,
+.student_find_th4_3,
+.student_find_th4_4 {
+	background-color: #D9F5C9;
+	font-weight: normal;
+}
+.student_find_th1,
+.student_find_th2_1,
+.student_find_th3_1,
+.student_find_th4_1 {
+	width: 70px;
+}
+.student_find_td2,
+.student_find_td4,
+.student_find_td5,
+.student_find_td6,
+.student_find_td7,
+.student_find_td8,
+.student_find_td9 {
+	width: 90px;
+}
+.student_find_td3 {
+	width: 138px;
+}
+.student_find_td2_2,
+.student_find_td2_3,
+.student_find_td2_4,
+.student_find_td2_5,
+.student_find_td2_6 {
+	width: 165px;
+}
+.student_find_td3_2,
+.student_find_td3_3,
+.student_find_td3_4,
+.student_find_td4_2,
+.student_find_td4_3,
+.student_find_td4_4 {
+	width: 280px;
+}
+
+.find_student_no {
+	width: 65px;
+}
+.fine_name,
+.find_birthday,
+.find_teacher,
+.find_club,
+.find_branch {
+	width: 90px;
+}
+.find_address {
+	width: 138px;
+}
+.find_sending {
+	width: 90px;
+}
+.find_input_small {
+	width : 150px;
+}
+.find_input_middle {
+	width: 195px;
+}
+.find_input_big {
+	width: 255px;
+}
+.student_list_tbl1 {
+	width: 950px;
+}
+.student_list_th1,
+.student_list_th2,
+.student_list_th3,
+.student_list_th4,
+.student_list_th5,
+.student_list_th6,
+.student_list_th7,
+.student_list_th8,
+.student_list_th9,
+.student_list_th10 {
+	background-color: #D9F5C9;
+	font-weight: normal;
+}
+.student_list_td1 {
+	width: 65px;
+	text-align: center;
+}
+.student_list_td2,
+.student_list_td6,
+.student_list_td7,
+.student_list_td8 {
+	width: 90px;
+	text-align: left;
+}
+.student_list_td3 {
+	width: 30px;
+	text-align: center;
+}
+.student_list_td4 {
+	width: 156px;
+}
+.student_list_td5 {
+	width: 70px;
+	text-align: center;
+}
+.student_list_td9 {
+	width: 77px;
+	text-align: center;
+}
+.student_list_td10 {
+	width: 80px;
+	text-align: center;
+}
+.download_block {
+	width: 700px;
+	text-align: left;
+	float: left;
+}
+.add_block {
+	width: 450px;
+	text-align: right;
+	float: right;
+}
+
+/* 在籍者更新 */
+.student_input_tbl1,
+.student_input_tbl2,
+.student_input_tbl3,
+.student_input_tbl4,
+.student_input_tbl5 {
+	width: 950px;
+	border: none;
+	border-collapse: separate;
+}
+.student_input_th1_1,
+.student_input_th1_2,
+.student_input_th1_3,
+.student_input_th1_4,
+.student_input_th1_5,
+.student_input_th1_6,
+.student_input_th1_7,
+.student_input_th1_8 {
+	background-color: #D9F5C9;
+	text-align: right;
+	font-weight: normal;
+	border: none;
+	padding: 1px;
+}
+.student_input_th1_1 {
+	height: 20px;
+	width: 250px;
+}
+.student_input_th1_2 {
+	width: 110px;
+}
+.student_input_th1_3 {
+	width: 90px;
+}
+.student_input_th1_4 {
+	width: 160px;
+}
+.student_input_th1_5 {
+	width: 40px;
+}
+.student_input_th1_6 {
+	width: 120px;
+}
+.student_input_th1_7,
+.student_input_th1_8 {
+	vertical-align: top;
+	padding-top: 3px;
+}
+.student_input_th1_8 {
+	width: 260px;
+}
+.student_input_td1_1,
+.student_input_td1_2,
+.student_input_td1_3 {
+	background-color: #F8F8F8;
+	text-align: left;
+	border: none;
+	padding: 1px;
+}
+.student_input_td1_1,
+.student_input_td1_2 {
+	width: 280px;
+}
+.student_input_th2_1,
+.student_input_th3_1,
+.student_input_th4_1,
+.student_input_th5_1 {
+	width: 260px;
+	height: 20px;
+	background-color: #D9F5C9;
+	text-align: right;
+	font-weight: normal;
+	border: none;
+	padding: 1px;
+}
+.student_input_td2_1,
+.student_input_td3_1,
+.student_input_td4_1,
+.student_input_td5_1 {
+	background-color: #F8F8F8;
+	text-align: left;
+	border: none;
+	padding: 1px;
+}
+.student_input_td2_2,
+.student_input_td3_2,
+.student_input_td4_2,
+.student_input_td5_2 {
+	width: 96px;
+	background-color: #F8F8F8;
+	vertical-align: middle;
+	text-align: center;
+	border: none;
+	padding: 1px;
+}
+.content_add {
+	width: 950px;
+	text-align: right;
+	margin-top: 3px;
+}
+.name,
+.employment {
+	width: 250px;
+}
+.number,
+.zip,
+.date {
+	width: 80px;
+}
+.address {
+	width: 650px;
+}
+.mail_address {
+	width: 350px;
+}
+.phone {
+	width: 250px;
+}
+.notes {
+	width: 650px;
+	height: 80px;
+}
+.department {
+	width: 350px;
+}
+.result {
+	width: 20px;
+}
+.subTitle {
+	width: 950px;
+	background-color: #6b8e23;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px 0px;
+}
+.supportFundTitle {
+	background-color: #D9F5C9;
+	font-weight: normal;
+        text-align: center;
+        width: 85px;
+}
+.supportFunc_add {
+	width: 277px;
+	text-align: right;
+	margin: 3px 0px;
+}

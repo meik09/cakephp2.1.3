@@ -1,0 +1,133 @@
+/* サブウィンドウ用のCSS */
+body {
+	margin: 8px 8px 8px 8px;
+}
+.header,
+.content {
+	width: 500px;
+}
+.title {
+	background-color: #014015;
+	width: 500px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	padding: 3px 0px 3px 0px;
+}
+.list_number_block,
+.paging_block {
+	width: 500px;
+	text-align: right;
+}
+.button_block {
+	width: 500px;
+	text-align: right;
+}
+.separator {
+	width: 500px;
+	height: 1px;
+	text-align: left;
+}
+/* 検索条件(出身校) */
+.school_find_tbl {
+	width: 500px;
+}
+.school_find_th1 {
+	background-color: #D9F5C9;
+	width: 100px;
+	font-weight: normal;
+}
+.school_find_td1 {
+	width: 280px;
+}
+.school_find_td2 {
+	width: 120px;
+}
+.find_school_name {
+	width: 272px;
+}
+/* 検索結果リスト(出身校) */
+.school_list_tbl {
+	width: 500px;
+}
+.school_list_th1,
+.school_list_th2 {
+	background-color: #D9F5C9;
+	font-weight: normal;
+}
+.school_list_th1 {
+	width: 83px;
+}
+.school_list_td1 {
+	text-align: center;
+}
+.school_list_td2 {
+	text-align: left;
+}
+/* 検索条件(ゼミ) */
+.seminor_find_tbl {
+	width: 500px;
+}
+.seminor_find_th1 {
+	background-color: #D9F5C9;
+	width: 100px;
+	font-weight: normal;
+}
+.seminor_find_td1 {
+	width: 280px;
+}
+.seminor_find_td2 {
+	width: 120px;
+}
+.find_seminor_name {
+	width: 272px;
+}
+/* 検索結果リスト(ゼミ) */
+.seminor_list_tbl {
+	width: 500px;
+}
+.seminor_list_th1,
+.seminor_list_th2 {
+	background-color: #D9F5C9;
+	width: 250px;
+	font-weight: normal;
+}
+.seminor_list_td1,
+.seminor_list_td2 {
+	text-align: left;
+}
+/* 検索条件(サークル) */
+.club_find_tbl {
+	width: 500px;
+}
+.club_find_th1 {
+	background-color: #D9F5C9;
+	width: 100px;
+	font-weight: normal;
+}
+.club_find_td1 {
+	width: 280px;
+}
+.club_find_td2 {
+	width: 120px;
+}
+.find_club_name {
+	width: 272px;
+}
+/* 検索結果リスト(ゼミ) */
+.club_list_tbl {
+	width: 500px;
+}
+.club_list_th1,
+.club_list_th2 {
+	background-color: #D9F5C9;
+	font-weight: normal;
+}
+.club_list_td1 {
+	width: 100px;
+	text-align: center;
+}
+.club_list_td2 {
+	text-align: left;
+}

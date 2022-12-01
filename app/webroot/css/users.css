@@ -1,0 +1,72 @@
+/* ユーザ管理メニューのCSS */
+/* ユーザ一覧 */
+.user_find_tbl1 {
+	width: 950px;
+}
+.user_find_th1,
+.user_find_th2,
+.user_find_th3 {
+	width: 394px;
+	background-color: #D9F5C9;
+	font-weight: normal;
+}
+.user_find_th3 {
+	width: 144px;
+	text-align: center;
+}
+.find_personnel_no,
+.find_name {
+	width: 388px;
+}
+.user_list_tbl1 {
+	width: 950px;
+}
+.user_list_th1,
+.user_list_th2,
+.user_list_th3,
+.user_list_th4 {
+	background-color: #D9F5C9;
+	font-weight: normal;
+}
+.user_list_td1 {
+	width: 194px;
+	text-align: center;
+}
+.user_list_td2,
+.user_list_td3 {
+	width: 294px;
+}
+.user_list_td4 {
+	text-align: center;
+}
+/* ユーザ新規登録 */
+.user_input_tbl {
+	width: 950px;
+	border: none;
+	border-collapse: separate;
+}
+.user_input_th1,
+.user_input_th2,
+.user_input_th3,
+.user_input_th4 {
+	width: 200px;
+	background-color: #D0F5C9;
+	text-align: right;
+	font-weight: normal;
+	border: none;
+	padding: 2px;
+}
+.user_input_td1,
+.user_input_td2,
+.user_input_td3,
+.user_input_td4 {
+	background-color: #F8F8F8;
+	border: none;
+	padding: 2px;
+}
+.user_personnel_no,
+.user_name,
+.user_login_id,
+.user_password {
+	width: 300px;
+}

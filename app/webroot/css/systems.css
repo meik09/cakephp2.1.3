@@ -1,0 +1,33 @@
+/* システム管理メニューのCSS */
+.system_import_tbl1 {
+	width: 950px;
+	border: none;
+	border-collapse: separate;
+}
+.system_import_th1 {
+	width: 200px;
+	height: 24px;
+	text-align: right;
+	font-weight: normal;
+	background-color: #D0F5C9;
+	border: none;
+	padding: 2px;
+}
+.system_import_td1 {
+	width: 750;
+	background-color: #F8F8F8;
+	text-align: left;
+	border: none;
+	padding: 2px;
+}
+.system_import_td2 {
+	text-align: right;
+	border: none;
+	padding: 2px;
+}
+.upload_file_name_slt {
+	width: 170px;
+}
+.upload_file_fld {
+	width: 400px;
+}

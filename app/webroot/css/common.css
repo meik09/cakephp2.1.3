@@ -1,0 +1,126 @@
+/* Base CSS */
+body {
+	font-family: "MS PGothic", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W5", "sans-serif";
+	font-size: 10pt;
+}
+table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+th {
+	border: 1px solid gray;
+	padding: 3px;
+}
+td {
+	border: 1px solid gray;
+	padding: 3px;
+}
+img {
+	border:none;
+}
+
+.container,
+.header,
+.logo,
+.content,
+.footer {
+	width: 950px;
+}
+.header,
+.content {
+	margin-bottom: 50px;
+}
+/* ヘッダ */
+.logo {
+	background-image: url(../img/logo.png);
+	text-align: right;
+	height: 30px;
+}
+.menu {
+/*	background-color: #75BE5F;*/
+	background-color: #014015;
+	padding: 5px 0px 5px 10px;
+	height: 14px;
+	width: 940px;
+}
+.menu_an:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.menu_an:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+.menu_an:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.logout_btn {
+	margin-top: 5px;
+/*	margin-right: 10px;*/
+}
+
+/* 共通部品 */
+.content_title {
+	width: 950px;
+	margin-bottom: 3px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.caution_msg {
+	font-size: 12px;
+	color: red;
+}
+.list_number_block,
+.paging_block {
+	width: 950px;
+	text-align: right;
+	margin-top: 8px;
+}
+.button_block {
+	width: 950px;
+	text-align: right;
+	margin-top: 8px;
+}
+.separator {
+	width: 950px;
+	height: 1px;
+	text-align: left;
+	margin-left: 0px;
+}
+.separator_div {
+	background-image:url(../img/dot.png);
+	background-repeat: repeat;
+	height: 3px;
+	width: 950px;
+	margin: 5px 0px 5px 0px;
+}
+
+/* エラーメッセージ */
+.message {
+	font-size: 12pt;
+	font-weight: bold;
+	color: red;
+}
+.info {
+	width: 940px;
+	text-align: left;
+	font-size: 12pt;
+	background-color: #CCFFFF;
+	padding: 3px 0px 3px 10px;
+}
+.warning {
+	width: 940px;
+	text-align: left;
+	font-size: 12pt;
+	background-color: #FFCCFF;
+	padding: 3px 0px 3px 10px;
+}
+.error {
+	width: 940px;
+	text-align: left;
+	font-size: 12pt;
+	background-color: #FF3300;
+	padding: 3px 0px 3px 10px;
+}

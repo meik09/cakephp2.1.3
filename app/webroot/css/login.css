@@ -1,0 +1,38 @@
+/* ログイン画面 */
+body {
+	background-image: url(../img/bg.png);
+	background-repeat: repeat;
+}
+.login_content {
+	width: 950px;
+}
+.login_tbl {
+	width: 300px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+.login_th1 {
+	width: 120px;
+	text-align: center;
+}
+.login_td1 {
+	background-color: #014B1C;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+.login_td2 {
+	width: 180px;
+	text-align: left;
+}
+.login_id,
+.password {
+	width: 174px;
+}
+.button_block {
+	text-align: center;
+	margin-top: 10px;
+}
